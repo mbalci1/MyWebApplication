@@ -1,0 +1,12 @@
+﻿@using myApp.Data
+@model Vehicle
+@{
+
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<form asp-action="Create" method="post">
+
+       <input asp-for="Plate" />
+       <button type="submit">Kaydets</button>  
+</form>
+
